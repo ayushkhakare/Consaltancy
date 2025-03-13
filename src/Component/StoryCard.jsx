@@ -74,7 +74,7 @@ const StoryCard = () => {
               <p className="text-gray-600 mb-6">{story.description}</p>
 
               {/* Optional: Add a Call-to-Action Button */}
-              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300 self-start">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300 self-start cursor-pointer">
                 Read More
               </button>
             </div>

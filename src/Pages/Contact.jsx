@@ -118,7 +118,7 @@ function Contact() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-[#0D0D46] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#000000] transition-all duration-300 transform hover:scale-105"
+              className="w-full bg-[#0D0D46] text-white py-3 rounded-lg font-semibold text-lg hover:bg-[#000000] transition-all duration-300 transform hover:scale-105 cursor-pointer"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>

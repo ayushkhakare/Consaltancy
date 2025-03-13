@@ -10,7 +10,7 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center px-6">
         
         {/* Logo & Branding */}
-        <div className="flex items-center space-x-3">
+        <NavLink to="/" className="flex items-center space-x-3 cursor-pointer">
           <img src="/logo.png" alt="Logo" className="h-14 w-14 shadow-sm" />
           <div>
             <span className="text-xl font-bold text-[#0D0D46] tracking-wide hover:text-gray-600 transition">
@@ -21,7 +21,7 @@ function Navbar() {
               DESIGN • OPTIMIZE • TRANSFORM
             </span>
           </div>
-        </div>
+        </NavLink>
 
         {/* Mobile Menu Button */}
         <button
@@ -53,7 +53,6 @@ function Navbar() {
               Contact
             </NavLink>
           </li>
-          
         </ul>
       </div>
 

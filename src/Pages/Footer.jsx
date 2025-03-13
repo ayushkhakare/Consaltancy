@@ -19,13 +19,13 @@ function Footer() {
               placeholder="Your email address" 
               className="px-4 py-2 w-64 bg-gray-500 text-white rounded-md outline-none"
             />
-            <button className="bg-red-600 text-white px-5 py-2 rounded-md hover:bg-red-700 transition">Subscribe</button>
+            <button className="bg-red-600 text-white px-5 py-2 rounded-md hover:bg-red-700 transition cursor-pointer">Subscribe</button>
           </div>
         </div>
 
         {/* Privacy Policy Checkbox */}
         <div className="flex items-center justify-center md:justify-start mb-8">
-          <input type="checkbox" className="mr-2" />
+          <input type="checkbox" className="mr-2 cursor-pointer" />
           <p className="text-sm text-gray-400">
             *I have read the <a href="/privacy" className="text-red-500 underline">Privacy Policy</a> and agree to its terms.
           </p>
