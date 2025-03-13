@@ -18,7 +18,7 @@ With Thanosphere Solutions, businesses gain a scalable, resilient, and future-re
   {
     id: "it-consulting",
     title: "IT Consultancy",
-    fullText: `At Thanosphere Solutions Pvt. Ltd., we empower businesses with cutting-edge IT consulting services that drive efficiency, scalability, and digital transformation.
+    fullText: `At Thanosphere Solutions Pvt. Ltd. we empower businesses with cutting-edge IT consulting services that drive efficiency, scalability, and digital transformation.
 
 Our IT consulting services include:
 - **Technology Strategy & Advisory** – Aligning IT infrastructure with business goals.
