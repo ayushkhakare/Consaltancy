@@ -22,21 +22,22 @@ function Aboutdetails() {
         <h2 className="text-4xl font-bold bg-gradient-to-r from-[#0D0D46] to-[#4B4B9E] text-transparent bg-clip-text mt-10">
           What We Offer
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
-          {[
-            "Business Process Management (BPM)",
-            "Management Consulting",
-            "IT Consulting",
-            "Business Intelligence (BI)",
-          ].map((service, index) => (
-            <div
-              key={index}
-              className="bg-white p-4 rounded-md shadow border border-gray-300 hover:shadow-lg transition-all duration-300"
-            >
-              <p className="text-base font-medium text-gray-800">🔹 {service}</p>
-            </div>
-          ))}
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-9 w-full">
+  {[
+    "Business Process Management (BPM)",
+    "Management Consulting",
+    "IT Consulting",
+    "Business Intelligence (BI)",
+  ].map((service, index) => (
+    <div
+      key={index}
+      className="bg-white p-4 rounded-md shadow border border-gray-300 hover:shadow-lg transition-all duration-300 text-center"
+    >
+      <p className="text-base font-medium text-gray-800">🔹 {service}</p>
+    </div>
+  ))}
+</div>
+
 
         {/* Sections */}
         <div className="mt-10">
