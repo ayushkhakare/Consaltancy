@@ -7,7 +7,7 @@ function Aboutdetails() {
   return (
     <div className="bg-white min-h-screen py-8 px-4 md:px-12">
       {/* Main Content Section */}
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-7xl px-3 lg-2 mx-auto text-center">
         {/* About Content */}
         <p className="text-gray-700 text-lg md:text-xl leading-relaxed max-w-full">
           At <span className="font-semibold text-black">Thanosphere Solutions Pvt. Ltd.</span>, we empower businesses with <strong>strategic consulting</strong> and <strong>technology-driven solutions</strong>. Unlike traditional firms, we don’t just advise—we implement. Our <strong>data-driven, agile approach</strong> blends business strategy, process optimization, and technology to drive success. From <strong>workflow automation</strong> to <strong>custom software development</strong>, we create solutions that enhance efficiency and deliver measurable results.

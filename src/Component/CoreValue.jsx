@@ -6,13 +6,13 @@ function CoreValue() {
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-[#0D0D46]">Our Core Values</h2>
-        <p className="text-gray-600 mt-2 max-w-2xl mx-auto">
+        <p className="text-gray-600 mt-2 max-w-2xl mx-auto px-3">
           We are committed to upholding values that drive excellence and trust.
         </p>
       </div>
 
       {/* Core Values Section */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-6">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-9">
         
         {/* Value 1 */}
         <div className="flex items-center space-x-6">

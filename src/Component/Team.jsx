@@ -26,12 +26,12 @@ function Team() {
             {/* Features Section */}
            
             <div className="grid grid-cols-2 gap-8 mt-8">
-  <div className="text-center bg-gray-100 p-5 rounded-xl shadow-sm">
+  <div className="text-center text-wrap bg-gray-100 p-5 rounded-xl shadow-sm">
     <div className="flex items-center justify-center w-16 h-16 bg-gray-200 rounded-full mx-auto mb-3">
       🔄
     </div>
-    <h3 className="font-semibold text-gray-800 text-lg">Business Process Management (BPM)</h3>
-    <p className="text-gray-500 text-md">
+    <h3 className="font-semibold text-gray-800 text-lg text-center break-words w-full max-w-xs">Business Process Management (BPM)</h3>
+    <p className="text-gray-500 text-md text-center w-full max-w-xs-gray-500 text-md">
       Streamlining workflows to enhance efficiency and productivity.
     </p>
   </div>

@@ -7,17 +7,17 @@ import {
 
 function CoreService() {
   return (
-    <div className="relative bg-gradient-to-b from-gray-100 to-white overflow-hidden">
+    <div className="mb-12 relative bg-gradient-to-b from-gray-100 to-white overflow-hidden">
       {/* Top Full-Width Image */}
       
       {/* Services Section */}
-      <div className="container mx-auto px-6 mt-12 text-center">
+      <div className="container mx-auto px-6 mt-5 text-center">
         <h2 className="text-4xl font-bold text-[#0D0D46] mb-12">
           Explore Our Expertise
         </h2>
 
         {/* Horizontal Services List */}
-        <div className="flex flex-wrap justify-center gap-16">
+        <div className="flex flex-wrap justify-center gap-12">
           {/* Service 1 */}
           <div className="flex flex-col items-center text-center space-y-3 w-60">
             <FaBusinessTime className="text-[#0D0D46] text-6xl mb-3" />

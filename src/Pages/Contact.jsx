@@ -41,13 +41,13 @@ function Contact() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-5 py-8">
       {/* Contact Us Heading */}
-      <h1 className="text-5xl font-bold text-center text-[#0D0D46] mb-12 uppercase tracking-wide">
+      <h1 className="md:text-5xl text-3xl font-bold text-center text-[#0D0D46] mb-7 uppercase tracking-wide">
         Contact Us
       </h1>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Side - Contact Form */}
         <div className="bg-white shadow-2xl rounded-2xl p-10 border border-gray-100">
           <h2 className="text-3xl font-bold text-[#0D0D46] mb-8">
