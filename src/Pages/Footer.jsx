@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaInstagram } from "react
 
 function Footer() {
   return (
-    <footer className="bg-[#0D0D46] text-white py-10">
+    <footer className="bg-[#09071d] text-white py-10">
       <div className="container mx-auto px-6">
         {/* Upper Section - Newsletter */}
         <div className="text-center md:text-left mb-8 flex flex-col md:flex-row items-center md:items-start justify-between space-y-4 md:space-y-0">
