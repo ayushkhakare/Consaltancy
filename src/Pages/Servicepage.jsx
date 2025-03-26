@@ -72,7 +72,7 @@ const Servicepage = () => {
           {service.fullText}
         </p>
         <Link
-          to="/services"
+          to="/service"
           className="mt-8 inline-block px-6 py-2 text-white bg-[#0D0D46] font-medium rounded-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-md"
         >
           Back to Services
