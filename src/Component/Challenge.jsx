@@ -3,50 +3,7 @@ import { motion } from "framer-motion";
 function Challenge() {
   return (
     <div className="space-y-16 mt-7">
-       {/* Core Values Section */}
-       <div>
-        <h3 className="text-4xl font-bold text-center text-gray-900 mb-10">
-          Our Core Values
-        </h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            {
-              title: "Innovation",
-              icon: "🚀",
-              desc: "We embrace creativity and strive for groundbreaking solutions.",
-            },
-            {
-              title: "Integrity",
-              icon: "🤝",
-              desc: "We operate with transparency, trust, and ethical values.",
-            },
-            {
-              title: "Excellence",
-              icon: "🏆",
-              desc: "We are committed to delivering high-quality solutions.",
-            },
-            {
-              title: "Customer Focus",
-              icon: "💡",
-              desc: "Our clients are at the heart of everything we do.",
-            },
-          ].map((value, index) => (
-            <motion.div
-              key={index}
-              className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 hover:shadow-2xl text-center transition-all"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: index * 0.2 }}
-            >
-              <div className="text-4xl">{value.icon}</div>
-              <h4 className="text-xl font-semibold text-gray-800 mt-4">
-                {value.title}
-              </h4>
-              <p className="text-gray-600 mt-2">{value.desc}</p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
+       
       {/* Challenge Section */}
       <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <motion.img

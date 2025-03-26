@@ -13,11 +13,11 @@ function Navbar() {
         <NavLink to="/" className="flex items-center space-x-3 cursor-pointer">
           <img src="/logo.png" alt="Logo" className="h-14 w-14 shadow-sm" />
           <div>
-            <span className="text-xl font-bold text-[#0D0D46] tracking-wide hover:text-gray-600 transition">
+            <span className="text-sm sm:text-xl md:text-xl lg:text-xl font-bold text-[#0D0D46] tracking-wide hover:text-gray-600 transition">
               Thanosphere Solutions
             </span>
             <br />
-            <span className="text-sm text-gray-600">
+            <span className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-600">
               DESIGN • OPTIMIZE • TRANSFORM
             </span>
           </div>

@@ -6,32 +6,32 @@ const Service = () => {
       id: "bpm",
       title: "Business Process Management",
       subtitle: "Optimize & Automate Workflows",
-      description: "Improve efficiency with our expert BPM solutions designed to streamline operations, reduce costs, and enhance productivity.",
-      fullText: "Business Process Management (BPM) helps organizations enhance workflows through automation, reducing manual efforts and increasing efficiency.",
+      description:
+        "Improve efficiency with our expert BPM solutions designed to streamline operations, reduce costs, and enhance productivity.",
       imgSrc: "/bpm1.webp",
     },
     {
       id: "it-consulting",
       title: "IT Consultancy",
       subtitle: "Expert IT Solutions for Your Business",
-      description: "Leverage cutting-edge IT strategies to grow your business with custom software solutions, cloud computing, and digital transformation.",
-      fullText: "IT consultancy offers expert guidance on technology solutions that improve operations, security, and digital presence.",
+      description:
+        "Leverage cutting-edge IT strategies to grow your business with custom software solutions, cloud computing, and digital transformation.",
       imgSrc: "/it2.png",
     },
     {
       id: "bi",
       title: "Business Intelligence (BI)",
       subtitle: "Data-Driven Insights for Smart Decisions",
-      description: "Integrating data-driven insights to support better decision-making and performance management.",
-      fullText: "Business Intelligence (BI) uses data analytics and visualization to provide actionable insights.",
+      description:
+        "Integrating data-driven insights to support better decision-making and performance management.",
       imgSrc: "/bi.webp",
     },
     {
       id: "management-consulting",
       title: "Management Consulting",
       subtitle: "Strategic Guidance for Sustainable Growth",
-      description: "Actionable insights and strategic guidance to optimize decision-making and drive sustainable growth.",
-      fullText: "Management consulting offers strategic advice to improve business performance.",
+      description:
+        "Actionable insights and strategic guidance to optimize decision-making and drive sustainable growth.",
       imgSrc: "/manage.webp",
     },
   ];
@@ -44,12 +44,12 @@ const Service = () => {
         </h2>
 
         {/* Services Grid */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => (
             <NavLink
-              to={`/servicepage/${service.id}`} // Navigate to the specific service page
+              to={`/servicepage/${service.id}`}
               key={service.id}
-              className="group relative bg-white rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
+              className="group relative bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
             >
               {/* Image Section */}
               <div className="w-full h-56 overflow-hidden">
@@ -62,7 +62,7 @@ const Service = () => {
 
               {/* Text Section */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold text-[#0D0D46] group-hover:text-blue-800 transition-colors">
+                <h3 className="text-lg md:text-xl font-semibold text-[#0D0D46] group-hover:text-blue-800 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 text-sm mt-2">{service.description}</p>
@@ -72,10 +72,38 @@ const Service = () => {
                   Learn More
                 </div>
               </div>
-
-              {/* Decorative Background Gradient */}
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-100 opacity-10 group-hover:opacity-20 transition-opacity"></div>
             </NavLink>
+          ))}
+        </div>
+      </div>
+
+      {/* How We Service - Responsive Layout */}
+      <div className="flex flex-col items-center w-full py-10 bg-gray-50">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">How We Service</h2>
+
+        <div className="relative flex flex-col md:flex-row items-center justify-center w-full max-w-7xl px-4 md:px-0">
+          {/* Horizontal Line for Large Screens */}
+          <div className="hidden md:block absolute top-6 left-0 right-0 h-1 bg-gray-300 mx-4" />
+
+          {[
+            { number: "1", title: "Consult", desc: "Schedule a consultation to discuss your unique business challenges." },
+            { number: "2", title: "Discover", desc: "We’ll work closely with you to understand your pain points and opportunities." },
+            { number: "3", title: "Design", desc: "Our experts will craft a tailored strategy to drive your transformation." },
+            { number: "4", title: "Implement", desc: "We’ll support you every step of the way, ensuring successful execution." },
+            { number: "5", title: "Achieve", desc: "Unlock sustainable growth, operational excellence, and long-term success." },
+          ].map((step, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-center px-5 w-full md:w-1/5 mb-6 md:mb-0"
+            >
+              {/* Step Number */}
+              <div className="w-12 h-12 bg-[#0D0D46] text-white rounded-full flex items-center justify-center font-bold relative z-10">
+                {step.number}
+              </div>
+              {/* Step Title & Description */}
+              <h3 className="text-lg md:text-xl font-semibold mt-4">{step.title}</h3>
+              <p className="text-gray-600 text-sm md:text-base mt-2 max-w-xs">{step.desc}</p>
+            </div>
           ))}
         </div>
       </div>
