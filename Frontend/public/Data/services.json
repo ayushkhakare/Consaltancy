@@ -1,0 +1,35 @@
+[
+    {
+      "id": "bpm",
+      "title": "Business Process Management",
+      "subtitle": "Optimize & Automate Workflows",
+      "description": "Improve efficiency with our expert BPM solutions designed to streamline operations, reduce costs, and enhance productivity.",
+      "fullText": "Business Process Management (BPM) helps organizations enhance workflows through automation, reducing manual efforts and increasing efficiency. BPM tools streamline complex processes, ensuring optimal performance across departments.",
+      "imgSrc": "/bpm1.webp"
+    },
+    {
+      "id": "it-consulting",
+      "title": "IT Consultancy",
+      "subtitle": "Expert IT Solutions for Your Business",
+      "description": "Leverage cutting-edge IT strategies to grow your business with custom software solutions, cloud computing, and digital transformation.",
+      "fullText": "IT consultancy offers expert guidance on technology solutions that improve operations, security, and digital presence. From cloud computing to cybersecurity, IT consultants help businesses stay ahead in the tech landscape.",
+      "imgSrc": "/it2.png"
+    },
+    {
+      "id": "bi",
+      "title": "Business Intelligence (BI)",
+      "subtitle": "Data-Driven Insights for Smart Decisions",
+      "description": "Integrating data-driven insights to support better decision-making and performance management.",
+      "fullText": "Business Intelligence (BI) uses data analytics and visualization to provide actionable insights. Companies leverage BI tools to optimize sales, marketing, and operational strategies.",
+      "imgSrc": "/bi.webp"
+    },
+    {
+      "id": "management-consulting",
+      "title": "Management Consulting",
+      "subtitle": "Strategic Guidance for Sustainable Growth",
+      "description": "Actionable insights and strategic guidance to optimize decision-making and drive sustainable growth.",
+      "fullText": "Management consulting offers strategic advice to improve business performance. Consultants analyze company structures, processes, and financial strategies to drive long-term success.",
+      "imgSrc": "/manage.webp"
+    }
+  ]
+  
